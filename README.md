@@ -138,16 +138,16 @@ open up you local host and port
 
 ## Save pass:
 
-vPR02UVhwBnoqxQ3bOhxAqqQ0ZqdKwDOUnllP4LK1s+ACRCeZfew
+s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
 
 
 ## Run from terminal:
 
-docker build -t flasksimpleapp.azurecr.io/mltest:latest .
+docker build -t chickenapp.azurecr.io/chicken:latest .
 
-docker login flasksimpleapp.azurecr.io
+docker login chickenapp.azurecr.io
 
-docker push flasksimpleapp.azurecr.io/mltest:latest
+docker push chickenapp.azurecr.io/chicken:latest
 
 
 ## Deployment Steps:
